@@ -1,11 +1,13 @@
 module github.com/incu6us/goimports-reviser/v3
 
-go 1.21
+go 1.22.0
+
+toolchain go1.22.3
 
 require (
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
-	golang.org/x/mod v0.12.0
+	golang.org/x/mod v0.21.0
 	golang.org/x/tools v0.13.0
 )
 
