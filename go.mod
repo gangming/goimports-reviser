@@ -5,7 +5,6 @@ go 1.22.0
 toolchain go1.22.3
 
 require (
-	github.com/starfishs/goimports-reviser/v3 v3.6.5
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
 	golang.org/x/mod v0.21.0
@@ -14,7 +13,6 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/kr/text v0.1.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/sys v0.12.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0 // indirect
