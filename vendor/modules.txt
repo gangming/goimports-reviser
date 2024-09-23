@@ -1,13 +1,13 @@
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/incu6us/goimports-reviser/v3 v3.6.5
+# github.com/starfishs/goimports-reviser/v3 v3.6.5
 ## explicit; go 1.21
-github.com/incu6us/goimports-reviser/v3/helper
-github.com/incu6us/goimports-reviser/v3/pkg/astutil
-github.com/incu6us/goimports-reviser/v3/pkg/module
-github.com/incu6us/goimports-reviser/v3/pkg/std
-github.com/incu6us/goimports-reviser/v3/reviser
+github.com/starfishs/goimports-reviser/v3/helper
+github.com/starfishs/goimports-reviser/v3/pkg/astutil
+github.com/starfishs/goimports-reviser/v3/pkg/module
+github.com/starfishs/goimports-reviser/v3/pkg/std
+github.com/starfishs/goimports-reviser/v3/reviser
 # github.com/kr/text v0.1.0
 ## explicit
 # github.com/pmezard/go-difflib v1.0.0

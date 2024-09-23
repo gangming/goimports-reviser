@@ -2,7 +2,7 @@ env:
   - GO111MODULE=on
   - CGO_ENABLED=0
   - PROJECT_NAME=goimports-reviser
-  - PROJECT_USER=incu6us
+  - PROJECT_USER=starfishs
 
 before:
   hooks:
@@ -53,20 +53,20 @@ changelog:
 release:
   prerelease: auto
   github:
-    owner: incu6us
+    owner: starfishs
     name: goimports-reviser
 
 brews:
   - name: goimports-reviser
     repository:
-      owner: incu6us
+      owner: starfishs
       name: homebrew-tap
     url_template: "https://github.com/{{ .Env.PROJECT_USER }}/{{ .ProjectName }}/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     commit_author:
-      name: incu6us
+      name: starfishs
       email: vyacheslavpryimak@gmail.com
     folder: Formula
-    homepage: "https://github.com/incu6us/goimports-reviser"
+    homepage: "https://github.com/starfishs/goimports-reviser"
     description: "Right imports sorting & code formatting tool"
     test: |
       system "#{bin}/goimports-reviser -version"

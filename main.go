@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/incu6us/goimports-reviser/v3/helper"
-	"github.com/incu6us/goimports-reviser/v3/reviser"
+	"github.com/starfishs/goimports-reviser/v3/helper"
+	"github.com/starfishs/goimports-reviser/v3/reviser"
 )
 
 const (
@@ -81,7 +81,7 @@ func init() {
 		&projectName,
 		projectNameArg,
 		"",
-		"Your project name(ex.: github.com/incu6us/goimports-reviser). Optional parameter.",
+		"Your project name(ex.: github.com/starfishs/goimports-reviser). Optional parameter.",
 	)
 
 	flag.StringVar(
