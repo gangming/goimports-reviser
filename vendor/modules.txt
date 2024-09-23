@@ -1,7 +1,14 @@
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/kr/pretty v0.1.0
+# github.com/incu6us/goimports-reviser/v3 v3.6.5
+## explicit; go 1.21
+github.com/incu6us/goimports-reviser/v3/helper
+github.com/incu6us/goimports-reviser/v3/pkg/astutil
+github.com/incu6us/goimports-reviser/v3/pkg/module
+github.com/incu6us/goimports-reviser/v3/pkg/std
+github.com/incu6us/goimports-reviser/v3/reviser
+# github.com/kr/text v0.1.0
 ## explicit
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
@@ -42,8 +49,6 @@ golang.org/x/tools/internal/pkgbits
 golang.org/x/tools/internal/tokeninternal
 golang.org/x/tools/internal/typeparams
 golang.org/x/tools/internal/typesinternal
-# gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
-## explicit
 # gopkg.in/yaml.v3 v3.0.0
 ## explicit
 gopkg.in/yaml.v3
